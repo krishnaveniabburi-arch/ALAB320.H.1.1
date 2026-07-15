@@ -13,7 +13,13 @@ export default function EmployeeList() {
 
     return (
         <div className="employee list component">
-            
+          {sampleEmployees.map((employee, idx) => (
+            <EmployeeListItem 
+            key={idx}
+            name={employee.name}
+            title={employee.title}
+            />
+          ))} 
         </div>
-    )
+    );
 }
