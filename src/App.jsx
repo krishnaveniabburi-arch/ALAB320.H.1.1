@@ -1,6 +1,6 @@
 import react from "react";
 import Header from "./Header";
-import SearchBar from "./searchBar";
+import SearchBar from "./SearchBar";
 import EmployeeList from "./EmployeeList";
 import "./App.css";
 
