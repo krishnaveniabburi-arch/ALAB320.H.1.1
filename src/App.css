@@ -8,7 +8,6 @@
   font-family: sans-serif;
   background-color: #fff;
 }
-
 .headercomponent {
   border:
   padding:
@@ -17,21 +16,18 @@
   font-size: 1.2rem;
   margin-bottom:6px;
   }
-
   .searchbarcomponent
   {
     border: 3px solid #385623;
     padding: 6px;
     margin-bottom: 6px;
   }
-
   .innerinputplaceholder
   {
 height: 28px;
 border: 1px solid #7f7f7f;
 background-color: #fafafa;
   }
-
   .employeelistcomponent
   {
     border: 3px solid #c00000;
@@ -41,10 +37,31 @@ background-color: #fafafa;
     gap: 12px;
 
   }
-
   .avatorplaceholder
   {
-    
-  }
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px: dashed #7f7f7f;
+    background-color: #f2f2f2;
+    flex-shrink: 0;
+ }
+.textdetails 
+ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nametext {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: 000000;
+}
+.titletext
+{
+  font-size: 0.8rem;
+  color: #595959;
+  margin-top: 2px;
+}
 
   
